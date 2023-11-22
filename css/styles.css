@@ -70,12 +70,13 @@ button {
 }
 .page-header-container {
   display: flex;
-  justify-content: space-between;
+  /* justify-content: space-between; */
   align-items: center;
 }
 .logo {
   display: flex;
   align-items: center;
+  margin-right: auto;
   gap: 4px;
   color: var(--primary-text-color);
   font-weight: 800;
@@ -84,10 +85,8 @@ button {
   line-height: 20px;
   letter-spacing: -0.54px;
 }
-.nav-and-socials-container {
-  display: flex;
-  align-items: center;
-  gap: 90px;
+.page-nav {
+  margin-right: 90px;
 }
 .nav-list {
   font-size: 14px;
@@ -96,6 +95,7 @@ button {
   color: var(--primary-text-color);
 }
 .nav-link {
+  padding: 12px 0;
   color: var(--primary-text-color);
   font-size: 14px;
   font-weight: 500;
@@ -151,6 +151,7 @@ button {
   align-items: center;
 }
 .buy-now-but {
+  margin-right: 14px;
   color: var(--secondary-text-color);
   padding: 14px 40px;
   border: 0;
@@ -163,8 +164,8 @@ button {
   background-color: var(--buy-now-but-color);
 }
 .link-to-how-its-made {
+  margin-right: auto;
   padding: 14px 40px;
-  margin-left: 14px;
   border-radius: 100px;
   border: 1px solid var(--secondary-text-color);
   color: var(--secondary-text-color);
@@ -175,7 +176,6 @@ button {
   border-color: var(--orange);
 }
 .hero-scroll-link {
-  margin-left: auto;
   color: var(--secondary-text-color);
 }
 .scroll-down-container {
@@ -285,8 +285,10 @@ button {
   background-color: var(--secondary-bg-color);
   color: var(--secondary-text-color);
 }
+.ingridients-item-img {
+  margin-bottom: 36px;
+}
 .ingridients-item-h {
-  margin: 36px 0 0 0;
   text-transform: uppercase;
   font-size: 14px;
   font-weight: 600;
@@ -308,6 +310,7 @@ button {
   border-radius: 15px;
 }
 .cooking-steps-h {
+  margin-bottom: 28px;
   width: 350px;
   font-size: 18px;
   font-weight: 600;
@@ -317,11 +320,13 @@ button {
   padding-left: 16px;
 }
 .cooking-steps-item {
-  margin: 24px 0 0 0;
   font-size: 14px;
   font-weight: 400;
   line-height: 1.28; /* 128.571% */
   letter-spacing: -0.28px;
+}
+.cooking-steps-item:not(:last-child) {
+  margin-bottom: 24px;
 }
 
 /* our products section */
@@ -347,6 +352,7 @@ button {
   margin-bottom: 8px;
 }
 .chocolate-name-h {
+  margin-bottom: 2px;
   text-align: center;
   font-size: 18px;
   font-weight: 600;
@@ -355,7 +361,6 @@ button {
   text-transform: uppercase;
 }
 .our-products-item-p {
-  margin-top: 2px;
   margin-bottom: 18px;
   color: var(--tertiary-bg-color);
   font-size: 12px;
@@ -395,34 +400,36 @@ button {
 .top-sellers-img {
   margin-bottom: 28px;
 }
+.top-sellers-item-h {
+  margin: 0;
+}
 
 /* reviews section */
 .reviews-sect {
   padding: 60px 0 120px 0;
 }
+.reviews-title {
+  margin-bottom: 92px;
+}
 .reviews-list {
   display: flex;
   gap: 28px;
-  margin-top: 92px;
   margin-bottom: 50px;
 }
 .reviews-item {
+  position: relative;
   width: calc((100% - 56px) / 3);
-  padding: 24px;
+  padding: 56px 24px 24px 24px;
   border: 1px solid var(--primary-border-color);
   border-radius: 15px;
   background-color: var(--secondary-text-color);
   box-shadow: 0px 10px 100px 0px var(--primary-border-color);
 }
-.reviews-item-img-container {
-  height: 32px;
-  width: 80px;
-  margin: 0 auto;
-  position: relative;
-}
 .reviews-item-img {
   position: absolute;
-  top: -70px;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%, -50%);
   border-radius: 50%;
 }
 .reviews-item-h {
@@ -461,12 +468,13 @@ button {
   background-color: var(--secondary-bg-color);
 }
 .footer-container {
-  padding: 50px 32px 68px 32px;
+  padding: 50px 32px;
 }
 .footers-top {
   display: flex;
 }
-.footer-h {
+.footer-title {
+  margin-right: auto;
   width: 300px;
   color: var(--secondary-text-color);
   font-size: 28px;
@@ -475,7 +483,7 @@ button {
   letter-spacing: -0.56px;
 }
 .footer-social-networks {
-  margin-left: auto;
+  margin-right: 58px;
 }
 .footer-secondary-title {
   margin-bottom: 14px;
@@ -487,9 +495,6 @@ button {
 .footer-socials-svg {
   fill: var(--secondary-text-color);
   border-color: rgba(255, 255, 255, 0.1);
-}
-.footer-contuct-us {
-  margin-left: 58px;
 }
 .address-link {
   color: var(--secondary-text-color);
@@ -510,5 +515,6 @@ button {
   margin-bottom: 42px;
 }
 .footer-nav-link {
+  padding: 18px 0;
   color: var(--secondary-text-color);
 }
