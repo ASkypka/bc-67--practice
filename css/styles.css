@@ -15,6 +15,16 @@ body {
   background-color: var(--primary-bg-color);
 }
 
+h1, h2, h3, h4, p {
+  margin: 0;
+}
+
+.container {
+  width: 1168px;
+  padding: 0 16px;
+  margin: 0 auto;
+}
+
 .list {
   padding: 0;
   margin: 0;
@@ -23,6 +33,10 @@ body {
 
 .link {
   text-decoration: none;
+}
+
+.span-orange {
+  color: var(--orange);
 }
 
 /* header */
@@ -116,3 +130,59 @@ body {
   letter-spacing: -0.03em;
   text-transform: uppercase;
 }
+/* section reviews */
+
+.reviews {
+padding: 60px 0 120px 0;
+}
+
+.reviews-title {
+  color: var(--primary-text-color);
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 1.17;
+    letter-spacing: -0.72px;
+    text-transform: uppercase;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.reviews-list {
+  margin-bottom: 50px;
+  display: flex; 
+  gap: 28px;
+}
+
+.reviews-subtitle {
+color: var(--primary-text-color);
+  text-align: center;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 1.33;
+  margin-bottom: 24px;
+  /* 133.333% */
+}
+
+.reviews-text {
+color: var(--third-text-color-alpha);
+  text-align: center;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.29;
+  /* 128.571% */
+  letter-spacing: -0.28px;
+}
+
+.reviews-item {
+  padding: 0 24px 24px 24px;
+  border-radius: 15px;
+    border: 1px solid rgba(17, 17, 17, 0.10);
+    background: #FFF;
+    box-shadow: 0px 10px 100px 0px rgba(17, 17, 17, 0.10);
+    width: 360px;
+    /* margin-right: 28px; */
+}
+
+/* .reviews-item:last-child {
+  margin-right: 0;
+} */
