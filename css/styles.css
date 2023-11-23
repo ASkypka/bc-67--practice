@@ -92,7 +92,65 @@ p {
   color: var(--orange);
 }
 
-.products-title {
+/* ======= Ingridients section ======== */
+
+.ingridients-section {
+  padding-top: 120px;
+  padding-bottom: 60px;
+}
+
+.ingridients-section-title {
+  width: 412px;
+  text-align: center;
+
+  margin: 0 auto 50px;
+}
+
+.products-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 32px;
+}
+
+.product-item {
+  width: calc((100% - 3 * 32px) / 4);
+
+  border-radius: 15px;
+
+  padding: 28px 23px;
+}
+
+.product-item:nth-child(4n + 1){
+  background-color: var(--orange);
+  color: var(--primary-bg-color);
+}
+
+.product-item:nth-child(2n) {
+  background-color: var(--primary-bg-color);
+  border: 1px solid var(--orange);
+  color: var(--primary-text-color);
+}
+
+.product-item:nth-child(4n + 3) {
+  background-color: var(--primary-text-color);
+  color: var(--primary-bg-color);
+}
+
+.product-item .image {
+  margin-bottom: 36px;
+}
+
+.product-item .title {
+  font-weight: 600;
+  font-size: 14px;
+
+  line-height: 1.29;
+  letter-spacing: -0.02em;
+}
+
+/* ======= END Ingridients section ======== */
+
+.section-title {
   color: var(--primary-text-color);
   text-align: center;
   font-size: 24px;
