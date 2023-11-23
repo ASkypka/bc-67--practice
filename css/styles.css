@@ -67,9 +67,10 @@ button {
   padding: 0 16px;
 }
 
-/* /common styles */
+/* /Common Styles */
 
 /* Page Header */
+
 .page-header-container {
   display: flex;
   align-items: center;
@@ -124,12 +125,19 @@ button {
   border-color: var(--orange);
 }
 
-/* main */
+/* /Page Header */
+
+/* Main */
+
 .section {
   padding: 60px 0;
 }
+.accent-color {
+  color: var(--orange);
+}
 
-/* hero section */
+/* Hero Section */
+
 .hero-sect {
   width: 1136px;
   margin-left: auto;
@@ -202,7 +210,10 @@ button {
   fill: var(--secondary-text-color);
 }
 
-/* benefits section */
+/* /Hero Section */
+
+/* Benefits Section */
+
 .benefits-sect {
   background-color: var(--secondary-bg-color);
 }
@@ -243,12 +254,12 @@ button {
   overflow: hidden;
 }
 
-/* ingridients section */
+/* /Benefits Section */
+
+/* Ingridients Section */
+
 .ingridients-sect {
   padding-top: 120px;
-}
-.accent-color {
-  color: var(--orange);
 }
 .section-title {
   width: 412px;
@@ -292,7 +303,10 @@ button {
   letter-spacing: -0.28px;
 }
 
-/* how it's made section */
+/* /Ingridients Section */
+
+/* How It's Made Section */
+
 .how-its-made-container {
   display: flex;
   gap: 20px;
@@ -322,7 +336,10 @@ button {
   margin-bottom: 24px;
 }
 
-/* our products section */
+/* /How It's Made Section */
+
+/* Our Products Section */
+
 .our-products-list {
   display: flex;
   flex-wrap: wrap;
@@ -371,7 +388,10 @@ button {
   background-color: #b2b2b2;
 }
 
-/* top sellers section */
+/* /Our Products Section */
+
+/* Top Sellers Section */
+
 .top-sellers-list {
   display: flex;
   gap: 16px;
@@ -391,7 +411,10 @@ button {
   margin: 0;
 }
 
-/* reviews section */
+/* /Top Sellers Section */
+
+/* Reviews Section */
+
 .reviews-sect {
   padding-bottom: 120px;
 }
@@ -450,7 +473,12 @@ button {
   color: var(--secondary-text-color);
 }
 
-/* footer */
+/* /Reviews Section */
+
+/* /Main */
+
+/* Page Footer */
+
 .page-footer {
   background-color: var(--secondary-bg-color);
 }
@@ -494,7 +522,6 @@ button {
 .address-item:first-child {
   margin-bottom: 4px;
 }
-
 .divider {
   width: 100%;
   border: 1px solid rgba(255, 255, 255, 0.1);
@@ -505,3 +532,5 @@ button {
   padding: 18px 0;
   color: var(--secondary-text-color);
 }
+
+/* /Page Footer */
