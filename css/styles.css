@@ -10,7 +10,7 @@
 }
 
 body {
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Montserrat', sans-serif;
   color: var(--primary-text-color);
   background-color: var(--primary-bg-color);
 }
@@ -43,6 +43,9 @@ p {
   color: var(--orange);
 }
 
+button {
+  cursor: pointer;
+}
 /* header */
 .page-header-container {
   display: flex;
@@ -92,7 +95,7 @@ p {
   color: var(--orange);
 }
 .current::after {
-  content: "";
+  content: '';
   position: absolute;
   width: 100%;
   background-color: var(--orange);
@@ -106,6 +109,68 @@ p {
 .nav-link:focus {
   color: var(--orange);
 }
+/* ======= HERO section ======== */
+.hero-section {
+  padding-bottom: 80px;
+}
+.hero-wrapper {
+  margin: 0 auto;
+  padding: 381px 40px 40px;
+  width: 1136px;
+  background-color: var(--third-text-color-alpha);
+
+  background-image: linear-gradient(
+      rgba(17, 17, 17, 0.1),
+      rgba(17, 17, 17, 0.1)
+    ),
+    url(../images/hero-bg_desk@1x.jpg);
+
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 30px;
+}
+
+.hero-title {
+  color: var(--primary-bg-color);
+
+  font-size: 28px;
+
+  font-weight: 500;
+  line-height: 1.21;
+  letter-spacing: -0.84px;
+
+  width: 484px;
+  padding-bottom: 32px;
+}
+
+.hero-btn {
+  border-radius: 100px;
+  background-color: var(--orange);
+  color: var(--primary-bg-color);
+  font-size: 14px;
+  font-weight: 600;
+  min-width: 144px;
+  height: 45px;
+  /* padding: 14px 40px; */
+  border: none;
+}
+.hero-btn:hover,
+.hero-btn:focus {
+  background-color: #fcf1e0;
+  color: var(--orange);
+}
+.btns-how {
+  border-radius: 100px;
+  border: 1px solid var(--primary-bg-color);
+  height: 45px;
+  min-width: 183px;
+  padding: 14px 40px;
+  color: var(--primary-bg-color);
+  font-size: 14px;
+  font-weight: 600;
+}
+
+/* ======= /HERO section ======== */
 
 /* ======= Ingridients section ======== */
 
