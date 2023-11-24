@@ -87,6 +87,21 @@ p {
   letter-spacing: -0.28px;
 }
 
+.current {
+  position: relative;
+  color: var(--orange);
+}
+.current::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  background-color: var(--orange);
+  height: 4px;
+  left: 0;
+  bottom: 0;
+  border-radius: 5px;
+}
+
 .nav-link:hover,
 .nav-link:focus {
   color: var(--orange);
@@ -120,7 +135,7 @@ p {
   padding: 28px 23px;
 }
 
-.product-item:nth-child(4n + 1){
+.product-item:nth-child(4n + 1) {
   background-color: var(--orange);
   color: var(--primary-bg-color);
 }
