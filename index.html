@@ -70,7 +70,9 @@
           </h1>
           <div class="hero-buttons">
             <div class="btns">
-              <button class="hero-btn" type="button">Buy now</button>
+              <button class="hero-btn" type="button" data-modal-open>
+                Buy now
+              </button>
               <a class="btns-how" href="">How it's made</a>
             </div>
             <div class="scroll">
@@ -428,5 +430,18 @@
         </div>
       </section>
     </main>
+
+    <!--Modal window-->
+    <div class="backdrop is-hidden" data-modal>
+      <div class="modal-window">
+        <button type="button" class="close-button" data-modal-close>
+          <svg width="14" height="14" class="close-button-icon">
+            <use href="./images/icons.svg#icon-close-button"></use>
+          </svg>
+        </button>
+      </div>
+    </div>
+
+    <script src="./js/modal.js"></script>
   </body>
 </html>
