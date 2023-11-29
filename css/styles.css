@@ -421,7 +421,128 @@ label {
 /* .reviews-item:last-child {
   margin-right: 0;
 } */
+/* =========FOOTER=========== */
+.footer {
+  background-color: #1E1823;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
 
+.footer-title {
+  width: 300px;
+  color: var(--primary-bg-color);
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 1.21;
+  letter-spacing: -0.56px;
+}
+
+.footer-text {
+  margin-bottom: 14px;
+  color: #FFF;
+    font-size: 14px;
+   
+    font-weight: 500;
+    line-height: 1.28;
+}
+
+
+.container-address {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 50px;
+}
+
+.container-address::after {
+  position: absolute;
+  bottom: 0;
+  height: 1px;
+  content: '';
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.10);
+}
+
+.footer-wrap {
+  display: flex;
+  gap: 50px;
+ 
+}
+
+.address {
+font-style: normal;
+}
+
+.footer-address-link {
+  color: #FFF;
+  font-size: 14px;
+  font-weight: 400;
+  
+  line-height: 1.28;
+  letter-spacing: -0.28px;
+}
+
+.footer-address-item:not(:last-child) {
+  margin-bottom: 4px;
+}
+
+.footer-form-nav {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 24px;
+
+}
+
+.nav-link-address {
+  display: block;
+  padding-top: 18px;
+  padding-bottom: 18px;
+  color: #FFF; 
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: -0.28px;
+}
+
+.footer-form {
+  display: flex;
+  gap: 8px;
+}
+
+.subscribe-input {
+  background-color: transparent;
+  width: 313px;
+  height: 52px;
+  padding: 14px 24px;
+  border-radius: 30px;
+  border: 1.5px solid rgba(255, 255, 255, 0.15);
+  color: rgba(255, 255, 255, 0.30);
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.22;
+  letter-spacing: -0.36px;
+  outline: transparent;
+}
+
+.footer-btn {
+  min-width: 137px;
+  height: 52px;
+  padding: 17px 40px;
+  border-radius: 100px;
+  background: #FD9222;
+  color: #FFF;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 18px;
+  border: none;
+}
+
+
+/* 128.571% */
 /* ======= MODAL WINDOW ======== */
 .is-hidden {
   opacity: 0;
