@@ -25,7 +25,12 @@
       <div class="container page-header-container">
         <a class="link logo" href="./index.html">
           <i>Simply</i> Chocolate
-          <img src="./images/chocolate.png" alt="logo" width="24" />
+          <img
+            src="./images/chocolate.png"
+            alt="logo"
+            width="24"
+            class="image"
+          />
         </a>
 
         <nav class="page-nav">
@@ -59,10 +64,59 @@
             </a>
           </li>
         </ul>
+
+        <button class="menu-toggle js-open-menu">
+          <svg class="mobile-menu-icon" width="32" height="22">
+            <use href="./images/icons.svg#icon-burger-menu"></use>
+          </svg>
+        </button>
+      </div>
+
+      <div class="menu-container js-menu-container">
+        <button type="button" class="close-mobile-menu-button js-close-menu">
+          <svg class="close-mobile-menu-icon" width="12" height="12">
+            <use href="./images/icons.svg#icon-close-button"></use>
+          </svg>
+        </button>
+
+        <nav class="page-nav-mobile">
+          <ul class="list nav-list">
+            <li class="nav-item">
+              <a class="link nav-link span-orange" href="./index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="link nav-link" href="">How it's made?</a>
+            </li>
+            <li class="nav-item">
+              <a class="link nav-link" href="">Chocolate is loved</a>
+            </li>
+          </ul>
+        </nav>
+
+        <ul class="list social-list-mobile">
+          <li class="social-item">
+            <a class="link social-link" href="">
+              <img src="./images/facebook.jpg" alt="facebook" width="40" />
+            </a>
+          </li>
+          <li class="social-item">
+            <a class="link social-link" href="">
+              <img src="./images/instagram.jpg" alt="instagram" width="40" />
+            </a>
+          </li>
+          <li class="social-item">
+            <a class="link social-link" href="">
+              <img src="./images/twitter.jpg" alt="twitter" width="40" />
+            </a>
+          </li>
+        </ul>
       </div>
     </header>
+
+    <!--Main - Page content-->
     <main>
-      <section class="hero-section">
+      <!--Hero section-->
+      <!-- <section class="hero-section">
         <div class="hero-wrapper">
           <h1 class="hero-title">
             Treat yourself or a loved one to our finest ingredients for a moment
@@ -80,9 +134,10 @@
             </div>
           </div>
         </div>
-      </section>
+      </section> -->
 
-      <section>
+      <!--Our benefits section-->
+      <!-- <section>
         <h2 style="display: none">Benefits</h2>
         <ul>
           <li>
@@ -114,10 +169,10 @@
             </p>
           </li>
         </ul>
-      </section>
+      </section> -->
 
       <!--Ingridients section-->
-      <section class="ingridients-section">
+      <!-- <section class="ingridients-section">
         <div class="container">
           <h2 class="section-title ingridients-section-title">
             It all adds up to one exceptional
@@ -196,9 +251,9 @@
             </li>
           </ul>
         </div>
-      </section>
+      </section> -->
 
-      <section class="made">
+      <!-- <section class="made">
         <h2 class="made-title">
           How it’s <span class="orange-text">made</span>?
         </h2>
@@ -242,11 +297,10 @@
             </p>
           </li>
         </ul>
-      </section>
+      </section> -->
 
       <!-- Our products -->
-
-      <section class="our-products">
+      <!-- <section class="our-products">
         <h2 class="section-title">
           Our <span class="orang-text">products</span>
         </h2>
@@ -348,11 +402,10 @@
             <button class="products-button" type="button">54 UAH</button>
           </li>
         </ul>
-      </section>
+      </section> -->
 
       <!-- Top sellers -->
-
-      <section class="top-sellers">
+      <!-- <section class="top-sellers">
         <div class="container">
           <h2 class="section-title">
             Top <span class="orang-text">sellers</span>
@@ -429,9 +482,10 @@
             </li>
           </ul>
         </div>
-      </section>
+      </section> -->
 
-      <section class="reviews">
+      <!--Reviews-->
+      <!-- <section class="reviews">
         <div class="container">
           <h2 class="reviews-title">
             <span class="span-orange">Chocolate</span> is loved
@@ -466,10 +520,12 @@
           </ul>
           <a href="">Leave a review</a>
         </div>
-      </section>
+      </section> -->
     </main>
+
+    <!--Footer-->
     <footer class="footer">
-      <div class="container">
+      <!-- <div class="container">
         <div class="container-address">
           <h2 class="footer-title">
             <span class="span-orange">Chocolate</span> a delicious cure for a
@@ -548,8 +604,9 @@
             <button class="footer-btn" type="submit">Subscribe</button>
           </form>
         </div>
-      </div>
+      </div> -->
     </footer>
+
     <!--Modal window-->
     <div class="backdrop is-hidden" data-modal>
       <div class="modal-window">
@@ -647,6 +704,9 @@
       </div>
     </div>
 
+    <!--Mobile menu script-->
+    <script src="./js/mobile-menu.js"></script>
+    <!--Modal window script-->
     <script src="./js/modal.js"></script>
   </body>
 </html>

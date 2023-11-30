@@ -17,5 +17,6 @@
 <path stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="2" d="M20 21v-2c0-1.061-0.421-2.078-1.172-2.828s-1.767-1.172-2.828-1.172h-8c-1.061 0-2.078 0.421-2.828 1.172s-1.172 1.767-1.172 2.828v2"></path>
 <path stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="2" d="M12 11c2.209 0 4-1.791 4-4s-1.791-4-4-4c-2.209 0-4 1.791-4 4s1.791 4 4 4z"></path>
 </symbol>
+<symbol id="icon-burger-menu" viewBox="0 0 47 32"><path stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="4.3636" d="M1.96 29.154h42.965M1.96 15.615h42.965M1.96 2.077h42.965"></path></symbol>
 </defs>
 </svg>
